@@ -32,8 +32,8 @@ public class OpRoute extends DefaultHandler {
         Player player = getPlayer(request, response);
         if (player == null) return;
 
-        runSync(() -> player.setOp(true));
-        response.message("The player is now op");
+        //runSync(() -> player.setOp(true));
+        response.message("OP Player is not supported on Zap-Hosting");
     }
 
     @Override
